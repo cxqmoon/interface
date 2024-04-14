@@ -1,2 +1,1 @@
-worker: yarn
-worker: yarn web start
+web: npm run g:build
