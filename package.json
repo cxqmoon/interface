@@ -106,8 +106,6 @@
     "i18n:upload": "dotenv -e .env.defaults -c -- yarn run i18n:_upload",
     "i18n:_download": "crowdin download --token=$CROWDIN_ACCESS_TOKEN",
     "i18n:download": "dotenv -e .env.defaults -c -- yarn run i18n:_download",
-    "lfg": "yarn g:prepare && yarn mobile env:local:download && yarn stretch env:local:download && yarn g:build && yarn mobile pod && yarn mobile ios",
-    "mobile": "yarn workspace @uniswap/mobile",
     "local:check": "./scripts/local-version-check.sh",
     "postinstall": "husky install && yarn g:prepare",
     "stretch": "yarn workspace @uniswap/stretch",
